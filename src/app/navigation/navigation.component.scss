@@ -1,0 +1,18 @@
+@import "../../styles";
+
+.navigation {
+  height: 100%;
+  &__side-bar {
+    border-right: 1px solid black;
+    width: 12em;
+  }
+  &__logo {
+    width: 100%;
+  }
+
+  &__link {
+    &--active {
+      color: red !important;
+    }
+  }
+}
